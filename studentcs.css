@@ -1,0 +1,36 @@
+
+
+  .card {
+    /*box-shadow: 0 5px 5px 5px #e1e1e1;*/
+    max-width: 350px;
+    padding: 15px;
+    border-radius: 5px;
+    margin: auto;
+    text-align: center;
+    /*background-color: #FFBDE6;*/
+    background-color:#302E3F;
+     background: rgba(0, 0, 0, 0.5);
+    margin-top: 150px;/*edited*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:auto;
+    color:#C3BAC1;
+}
+.card:hover{
+    transform: scale(1.045);
+    cursor: pointer;
+    box-shadow: 0 5px 5px 5px black;
+  
+}
+img {
+    width: 50%;
+    border: 5px solid #e1e1e1;
+    border-radius: 100px;
+}
+table, table tr td {
+    width: 290px;
+    margin: 0 auto;
+    border: 1px solid #e1e1e1;
+    text-align: left;
+    color:#C3BAC1;
+}

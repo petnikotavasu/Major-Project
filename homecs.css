@@ -1,0 +1,94 @@
+.hero{
+    height: 75%;
+    width:100%;
+}
+.form-box{
+    width: 380px;
+    height: 440px;
+    position: relative;
+    margin: 4.9% auto;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    overflow: hidden;
+    color: white;
+    border-radius: 6px;
+    margin-top:9%;
+}
+.button-box{
+    width: 222px;
+    margin: 35px auto;
+    position:relative;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px;
+}
+.toggle-btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+   color:white;
+}
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background:#777FAE;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+.input-group{
+    top: 150px;
+    position: absolute;
+    width: 280px;
+    transition: 0.5s;
+}
+.input-field{
+    width: 98%;
+    padding: 10px 0;
+    margin: 15px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right:0 ;
+    border-bottom: 1px solid #999 ;
+    outline: none;
+    background: transparent;
+    font-size: medium;
+    color: #C3BAC1;
+}
+.submit-btn{
+    width: 50%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background:#777FAE;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    position: relative;
+    margin-top: 20px;
+    color:white;
+}
+#login{
+    left: 100px;
+}
+
+#register{
+    left: 450px;
+}
+#team{
+    text-decoration: none;
+    color:black;
+}
+#team:hover{
+    font-weight: bold;
+}
+@supports(-moz-appearance: none){
+    .button-box{
+        width: 225px;
+    }
+}

@@ -1,0 +1,48 @@
+.card {
+    max-width: 350px;
+    padding: 15px;
+    border-radius: 5px;
+    margin: auto;
+    text-align: center;
+    background-color: #FFBDE6;
+    margin-top: 50px;
+    float: left;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    background-color:#302E3F;
+     background: rgba(0, 0, 0, 0.5);
+     color:#C3BAC1;
+     margin-top:7%;
+}
+.card:hover{
+    transform: scale(1.045);
+    cursor: pointer;
+    box-shadow: 0 5px 5px 5px black;
+   
+}
+img {
+    width: 50%;
+    border: 5px solid #e1e1e1;
+    border-radius: 100px;
+}
+table, table tr td {
+    width: 290px;
+    margin: 0 auto;
+    border: 1px solid #e1e1e1;
+    text-align: left;
+    color:#C3BAC1;
+}
+button{
+    width: 10%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    background: #C3BAC1;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 10%;
+    position:fixed;
+}
